@@ -62,7 +62,7 @@ public class Algoritmo_BFS {
         fila.add(origen);
         // Mostrar estado de la cola
         while (!fila.isEmpty()) {
-            System.out.print("Fila actual: " + fila.toString() + " - ");
+            System.out.print("Fila actual: " + fila + " - ");
             int u = fila.poll();
             System.out.println( "Nodo actual: " + u);
 
